@@ -1,0 +1,24 @@
+{
+    "name": "shibleshakil/timezones",
+    "description": "Demo Package to show time",
+    "autoload": {
+        "psr-4": {
+            "Shibleshakil\\Timezones\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shibleshakil",
+            "email": "shakil.shible@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shibleshakil\\Timezones\\TimezonesServiceProvider"
+            ]
+        }
+    }
+}
